@@ -79,6 +79,7 @@ public class Ventana extends JFrame{
 		g2d.fillPolygon(xs2, ys2, 3);
 		
 		g2d.drawRoundRect(300, 280, 300, 300, 20, 20);
+		g2d.fillRoundRect(350, 320, 50,50, 20, 20);
 	}
 
 }
